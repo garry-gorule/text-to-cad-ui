@@ -29,3 +29,4 @@ export const POST: RequestHandler = async ({ cookies, fetch, request }) => {
 		body: data
 	} satisfies LoadResponse)
 }
+console.log("TOKEN:", token); // should show your token
